@@ -8,8 +8,8 @@
 import scrapy
 
 
-class MySOItem(scrapy.Item):
+class QuestionItem(scrapy.Item):
     title = scrapy.Field()
     link = scrapy.Field()
-    desc = scrapy.Field()
+    tags = scrapy.Field()
     pass
